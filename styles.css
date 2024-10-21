@@ -1,0 +1,103 @@
+body {
+  background-color: #261f3a;
+  margin: 0;
+}
+
+#skills,
+#portfolio,
+#werkErvaring,
+#contact {
+  padding-bottom: 100vh;
+}
+
+@media (max-width: 680px) {
+  #profilePic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  #name,
+  #title,
+  p {
+    text-align: center !important;
+  }
+  p {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 10px;
+  }
+}
+
+/* about me styling */
+#name,
+#title,
+#aboutmeP {
+  text-align: right;
+}
+
+h1,
+h2,
+p {
+  color: #faedff;
+}
+
+#title {
+  margin-bottom: 7vh;
+}
+
+#name {
+  padding-top: 18vh;
+  font-size: 6vh;
+}
+
+h1,
+p {
+  font-family: "Lexend";
+}
+
+#aboutmeP {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 10vw;
+}
+
+h2 {
+  font-family: "Lexend Mega";
+  font-size: 80%;
+}
+
+#profilePic {
+  width: 300px;
+  height: 400px;
+  float: right;
+  padding-right: 10vw;
+  padding-top: 18vh;
+  padding-left: 3vw;
+}
+
+#cvBtn,
+#skillsBtn {
+  color: #fcf7ff;
+  border-radius: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#skillsBtn {
+  background-color: #261f3a;
+  border: 2px solid #ada6ea;
+  margin-left: 55vw;
+}
+
+#cvBtn {
+  background-color: #ada6ea;
+  border: none;
+}
+
+/* skills styling */
+
+#skills > p {
+  text-align: left;
+}
