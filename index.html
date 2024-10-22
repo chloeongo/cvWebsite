@@ -8,10 +8,13 @@
       href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&family=Lexend:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/ee0165a535.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Home</title>
   </head>
   <body>
-    <header></header>
     <div id="aboutme">
       <img id="profilePic" src="Images/profilePic.png" alt="profile picture" />
       <h1 id="name">Chloë Ongolesono</h1>
@@ -27,73 +30,251 @@
         stage waar ik mijn codeer skills kan verbeteren en waar ik ervaring kan
         opdoen als toekomstige fullstack developer.
       </p>
-      <a href="#skills">
-        <button id="skillsBtn">Skills</button>
+      <a href="#skillsH1">
+        <button id="skillsBtn" class="regBtn">Skills</button>
       </a>
       <a href="https://www.google.nl" target="_blank">
         <button id="cvBtn">Open CV</button>
       </a>
     </div>
 
-    <div id="skills"></div>
-    <h1 id="skillsH1">Skills</h1>
-    <h2 class="skillTitle">Soft skills</h2>
-    <div id="softSkills">
-      <p class="skillP">
-        ◦ Zelf motivatie<br />
-        ◦ Verantwoordelijk <br />
-        ◦ Samenwerken <br />
-        ◦ Flexibel <br />
-      </p>
+    <div id="skillsHeader">
+      <h1 id="skillsH1">Skills</h1>
+      <a href="#portfolioH1">
+        <button
+          id="portfolioBtn"
+          class="regBtn"
+          style="background-color: #302749"
+        >
+          Portfolio
+        </button>
+      </a>
     </div>
-    <h2 class="skillTitle">Hard skills</h2>
-    <div id="hardSkills">
-      <p class="skillP">
-        ◦ Java <br />
-        ◦ HTML & CSS <br />
-        ◦ Javascript <br />
-        ◦ mySql Database <br />
-        ◦ PHP <br />
-      </p>
+    <div id="skills">
+      <h2 class="skillTitle">Soft skills</h2>
+      <div id="softSkills">
+        <p class="skillP">
+          ◦ Zelf motivatie
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle-half-stroke" style="color: #ffedff"></i>
+          <br />
+          ◦ Verantwoordelijk
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-regular fa-circle" style="color: #ffedff"></i>
+          <br />
+          ◦ Samenwerken
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-regular fa-circle" style="color: #ffedff"></i>
+          <i class="fa-regular fa-circle" style="color: #ffedff"></i>
+          <br />
+          ◦ Flexibel
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-regular fa-circle" style="color: #ffedff"></i>
+          <br />
+        </p>
+      </div>
+      <h2 class="skillTitle">Hard skills</h2>
+      <div id="hardSkills">
+        <p class="skillP">
+          ◦ Java
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-regular fa-circle" style="color: #ffedff"></i>
+          <i class="fa-regular fa-circle" style="color: #ffedff"></i>
+          <i class="fa-regular fa-circle" style="color: #ffedff"></i>
+          <br />
+          ◦ HTML & CSS
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-regular fa-circle" style="color: #ffedff"></i>
+          <br />
+          ◦ Javascript
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle-half-stroke" style="color: #ffedff"></i>
+          <i class="fa-regular fa-circle" style="color: #ffedff"></i>
+          <br />
+          ◦ mySql Database
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-regular fa-circle" style="color: #ffedff"></i>
+          <br />
+          ◦ PHP
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-solid fa-circle" style="color: #faedff"></i>
+          <i class="fa-regular fa-circle" style="color: #ffedff"></i>
+          <i class="fa-regular fa-circle" style="color: #ffedff"></i>
+          <i class="fa-regular fa-circle" style="color: #ffedff"></i>
+          <br />
+        </p>
+      </div>
     </div>
-    <div id="portfolio"></div>
-    <h1>Portfolio</h1>
-    <a
-      href=" https://chloeongo.github.io/yahtzee/Index/Index.html"
-      target="_blank"
-      >Yahtzee</a
-    >
-    <p>
-      Een single player yahtzee game, geprogrammeerd in Javascript, html en css.
-      <br />
-      Dit project was een eindopdracht voor de JS classroom van school.
-    </p>
-    <a
-      href="https://chloeongo.github.io/HTMLCSS-Eindopdracht/index/index.html"
-      target="_blank"
-      >HTML & CSS</a
-    >
-    <p>
-      Dit is een website met verschillende anime recommendations. Het heeft ook
-      een html form, maar nog zonder de back-end logica.<br />
-      Deze website was een eindopdracht voor de html en css classroom van
-      school, het ging hier met name om het responsive maken van de website en
-      een form toevoegen.
-    </p>
 
-    <div id="werkErvaring"></div>
-    <h1>Werk ervaring</h1>
-    <img class="werkImg" src="/Images/action.png" alt="Action" />
-    <p>mei 2023 - juli 2023</p>
-    <img class="werkImg" src="/Images/thuisbezorgd.png" alt="Thuisbezorgd" />
-    <p>sep 2023 - sep 2024</p>
-    <img
-      class="werkImg"
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEiuZ6cv_pUCkQUS5vyv0sB6vh1k-sroFTWg&s"
-      alt="Kruidvat"
-    />
-    <p>okt 2024 - heden</p>
-    <div id="contact"></div>
-    <h1>Contact</h1>
+    <div id="portfolioHeader">
+      <h1 id="portfolioH1">Portfolio</h1>
+      <a href="#werkH1">
+        <button
+          id="werkervaringBtn"
+          class="regBtn"
+          style="background-color: #362b54"
+        >
+          Werk Ervaring
+        </button>
+      </a>
+    </div>
+    <div id="portfolio">
+      <div class="portfolioItem">
+        <img src="Images/java.png" class="portfolioImg" />
+        <p>
+          Dit is mijn allereerste project. Voor mijn eindproject van de java
+          classroom op school heb ik boter kaas en eieren geprogrammeerd.
+        </p>
+      </div>
+
+      <div class="portfolioItem">
+        <img src="Images/html.png" class="portfolioImg" />
+        <br />
+        <a
+          href="https://chloeongo.github.io/HTMLCSS-Eindopdracht/index/index.html"
+          target="_blank"
+          class="portfolioLink"
+          >Ani recs</a
+        >
+        <p>
+          Dit is een website met verschillende anime recommendations. Het heeft
+          ook een html form, maar nog zonder de back-end logica.<br />
+          Deze website was een eindopdracht voor de html en css classroom van
+          school, het ging hier met name om het responsive maken van de website
+          en een form toevoegen.
+        </p>
+      </div>
+
+      <div class="portfolioItem">
+        <img src="Images/js.png" class="portfolioImg" />
+        <br />
+        <a
+          href="https://chloeongo.github.io/yahtzee/Index/Index.html"
+          target="_blank"
+          class="portfolioLink"
+          >Yahtzee</a
+        >
+        <p>
+          Een single player yahtzee game, geprogrammeerd in Javascript, html en
+          css.
+          <br />
+          Dit project was een eindopdracht voor de JS classroom van school.
+        </p>
+      </div>
+
+      <div class="portfolioItem">
+        <img src="Images/mysql.png" class="portfolioImg" />
+        <p>
+          Voor de eindopdracht van school moest ik een database maken voor een
+          denkbeeldige winkel. Een winkel met meerdere filialen, met
+          bestellingen en voorraden.
+        </p>
+      </div>
+
+      <div class="portfolioItem">
+        <img src="Images/phpIcon.png" class="portfolioImg" />
+        <p>
+          Ik ben momenteel nog bezig met dit project. Ook dit project is een
+          eindopdracht voor school. Ik ben van plan om een soort twitter CRUD
+          applicatie te maken met een log in pagina. Tot nu toe ben ik bezig met
+          het maken van posts.
+        </p>
+      </div>
+    </div>
+
+    <div id="werkervaringHeader">
+      <h1 id="werkH1" style="padding-top: 26px">Werk ervaring</h1>
+      <a href="#contactH1">
+        <button
+          id="werkervaringBtn"
+          class="regBtn"
+          style="background-color: #362b54"
+        >
+          Contact
+        </button>
+      </a>
+    </div>
+    <div id="werkErvaring">
+      <div class="werkItem">
+        <img class="werkImg" src="Images/kruidvat.png" alt="Kruidvat" />
+        <br />
+        <p>
+          winkelmedewerker <br />
+          okt 2024 - heden
+        </p>
+      </div>
+      <div class="werkItem">
+        <img class="werkImg" src="Images/thuisbezorgd.png" alt="Thuisbezorgd" />
+        <br />
+        <p>
+          fiets koerier <br />
+          sep 2023 - sep 2024
+        </p>
+      </div>
+      <div class="werkItem">
+        <img class="werkImg" src="Images/action.png" alt="Action" />
+        <br />
+        <p>
+          winkelmedewerker <br />
+          mei 2023 - jul 2023
+        </p>
+      </div>
+    </div>
+
+    <div id="contactHeader">
+      <h1 id="contactH1">Contact</h1>
+      <a href="#contactH1">
+        <button id="abtmeBtn" class="regBtn" style="background-color: #432b54">
+          To top
+        </button>
+      </a>
+    </div>
+    <div id="contact">
+      <div>
+        <img class="contactImg" src="Images/github.png" />
+        <br />
+        <a href="https://github.com/chloeongo" target="_blank">
+          <button class="regBtn" style="background-color: #42284f">
+            Github
+          </button>
+        </a>
+      </div>
+      <div>
+        <img class="contactImg" src="Images/email.png" />
+        <br />
+        <a href="mailto:c.ongolesono@gmail.com" target="_blank">
+          <button id="cvBtn">Mail me</button>
+        </a>
+      </div>
+      <div>
+        <img class="contactImg" src="Images/cv.png" />
+        <br />
+        <a href="https://www.google.nl" target="_blank">
+          <button class="regBtn" style="background-color: #46284f">
+            Open CV
+          </button>
+        </a>
+      </div>
+    </div>
   </body>
 </html>

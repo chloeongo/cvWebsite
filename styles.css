@@ -29,6 +29,22 @@ body {
     margin-right: 25% !important;
     margin-left: 25% !important;
   }
+
+  #portfolioHeader {
+    margin-top: 100px;
+  }
+
+  #werkervaringHeader {
+    margin-top: 130vh;
+  }
+
+  #werkImg {
+    width: 50%;
+  }
+
+  #contactHeader {
+    margin-top: 20vh;
+  }
 }
 
 /* about me styling */
@@ -85,7 +101,8 @@ h2 {
 }
 
 #cvBtn,
-#skillsBtn {
+#skillsBtn,
+.regBtn {
   color: #fcf7ff;
   border-radius: 15px;
   padding-bottom: 10px;
@@ -93,9 +110,13 @@ h2 {
   padding-left: 20px;
   padding-right: 20px;
 }
-#skillsBtn {
+
+.regBtn {
   background-color: #261f3a;
   border: 2px solid #ada6ea;
+}
+
+#skillsBtn {
   margin-left: 53vw;
 }
 
@@ -104,26 +125,145 @@ h2 {
   border: none;
 }
 
+#cvBtn:hover {
+  background-color: #8e85d1;
+}
+
+.regBtn:hover {
+  border: 2px solid#8e85d1;
+}
+
 /* skills styling */
 
 #softSkills,
 #hardSkills {
   border: 2px solid #ada6ea;
   border-radius: 20px;
-  width: 60vw;
+  width: 30vw;
   padding: 10px 20px;
   margin: 20px auto;
 }
 
 .skillP {
   text-align: left;
+  font-size: larger;
+}
+
+.skillP > i {
+  font-size: larger;
 }
 
 .skillTitle {
   text-align: center;
 }
 
-#skillsH1 {
-  margin-left: 15px;
+#skillsH1,
+#contactH1,
+#portfolioH1 {
+  margin-left: 30px;
   font-size: 6vh;
+  padding-top: 30px;
+}
+
+#skills {
+  height: 100vh;
+}
+
+/* portfolio styling */
+
+#portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  height: 100vh;
+}
+
+.portfolioItem,
+.werkItem {
+  max-width: 250px;
+  margin: 10px;
+  text-align: center;
+}
+
+.portfolioImg {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.portfolioLink {
+  font-family: "Lexend Mega";
+  color: #ada6ea;
+}
+
+.portfolioLink:hover {
+  color: #e3cfed;
+}
+
+#portfolioHeader,
+#skillsHeader,
+#werkervaringHeader,
+#contactHeader {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 30px;
+}
+
+#werkervaringBtn,
+#portfolioBtn,
+#contactBtn,
+#abtmeBtn {
+  margin-left: 1vw;
+  margin-top: 30px;
+}
+
+/* werk ervaring styling */
+
+.werkImg {
+  border-radius: 25px;
+  box-shadow: 5px 5px 7px #1b1b1b79;
+  width: 80%;
+  height: auto;
+}
+
+#werkErvaring {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  height: 100vh;
+}
+
+.werkItem > p {
+  font-size: larger;
+}
+
+/* contact styling */
+
+.contactImg {
+  width: 180px;
+  height: auto;
+  border-radius: 25px;
+  padding-bottom: 30px;
+}
+
+#contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  height: 100vh;
+}
+
+#contact > div {
+  margin-top: 15px;
+  text-align: center;
 }
