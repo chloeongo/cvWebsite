@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="Images/favicon.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&family=Lexend:wght@100..900&display=swap"
       rel="stylesheet"
@@ -12,27 +13,30 @@
       src="https://kit.fontawesome.com/ee0165a535.js"
       crossorigin="anonymous"
     ></script>
-    <title>CO</title>
+    <title>CO cv website</title>
   </head>
   <body>
+    <header>
+      <a href="#skillsH1"> Skills </a>
+      <a href="#portfolioH1">Portfolio </a>
+      <a href="#werkH1"> Werk ervaring </a>
+      <a href="#contactH1">
+        <button id="headerBtn" class="cvBtn">Contact</button>
+      </a>
+    </header>
+
     <div id="aboutme">
       <img id="profilePic" src="Images/profilePic.png" alt="profile picture" />
       <h1 id="name">Chloë Ongolesono</h1>
       <h2 id="title">Software developer</h2>
       <p id="aboutmeP">
-        Hey, ik ben Chloë en ik ben een tweedejaars software development student
-        op het ROC van Flevoland. Voordat ik de opleiding software development
-        deed had ik geen ervaring met programmeren, maar ik heb wel altijd
-        interesse gehad in games en computers. Nu is het inmiddels een jaar
-        later en ben ik heel blij dat ik deze opleiding heb gekozen. Ik vind
-        programmeren heel leuk om te doen. Bugs oplossen en creatief kunnen zijn
-        met de front-end design zijn maar twee van de vele punten dat mij
-        aantrekken. Ik heb al ervaring met Java, Html/Css, Javascript, mySql
-        Database en Php, maar ik ben erg leergierig om nieuwe programmeertalen
-        te leren! Ik ben aan het studeren om een fullstack web-developer worden.
-        Momenteel ben ik opzoek naar een leuke stage waar ik mijn programmeer
-        skills kan verbeteren en waar ik ervaring kan opdoen als toekomstige
-        fullstack developer.
+        Hey, ik ben Chloë en ik ben een tweedejaars software development
+        student<br />
+        op het ROC van Flevoland. Bugs oplossen en creatief kunnen zijn met
+        <br />de front-end design zijn maar twee van de vele punten dat ik leuk
+        vind aan programmeren. <br />Ik heb ervaring met Java, Html/Css,
+        Javascript, mySql Database en Php <br />en ik ben aan het studeren om
+        een fullstack web-developer worden.
       </p>
       <a href="#skillsH1">
         <button id="skillsBtn" class="regBtn">Skills</button>
@@ -41,7 +45,7 @@
         href="https://1drv.ms/w/s!Ak1J6JQpUi98gb4w3pz-HXibG00uYw?e=fSDQe6"
         target="_blank"
       >
-        <button id="cvBtn">Open CV</button>
+        <button class="cvBtn">Open CV</button>
       </a>
     </div>
 
@@ -156,8 +160,8 @@
           >Boter kaas en eieren</a
         >
         <p>
-          Dit is mijn allereerste project. Voor mijn eindproject van de java
-          classroom op school heb ik boter kaas en eieren geprogrammeerd.
+          Dit is mijn allereerste project. Het is geprogrammeerd in Java
+          Processing.
         </p>
       </div>
 
@@ -171,11 +175,8 @@
           >Ani recs</a
         >
         <p>
-          Dit is een website met verschillende anime recommendations. Het heeft
-          ook een html form, maar nog zonder de back-end logica.<br />
-          Deze website was een eindopdracht voor de html en css classroom van
-          school, het ging hier met name om het responsive maken van de website
-          en een form toevoegen.
+          Dit is een html en css project. Volledig responsive en het heeft ook
+          een html form, maar nog zonder de back-end logica.
         </p>
       </div>
 
@@ -191,8 +192,6 @@
         <p>
           Een single player yahtzee game, geprogrammeerd in Javascript, html en
           css.
-          <br />
-          Dit project was een eindopdracht voor de JS classroom van school.
         </p>
       </div>
 
@@ -203,12 +202,11 @@
           href="https://1drv.ms/f/s!Ak1J6JQpUi98gb4ZTCmh5InZPiR4lQ?e=z3lpad"
           target="_blank"
           class="portfolioLink"
-          >Database</a
+          >Tools for ever</a
         >
         <p>
-          Voor de eindopdracht van school moest ik een database maken voor een
-          denkbeeldige winkel, Tools for ever. Een winkel met meerdere filialen,
-          die ook bestellingen kunnen doen en voorraden hebben.
+          Dit is een mySql database voor een denkbeeldige bedrijf, Tools for
+          ever.
         </p>
       </div>
 
@@ -222,10 +220,9 @@
           >Crud applicatie</a
         >
         <p>
-          Ik ben momenteel nog bezig met dit project. Ook dit project is een
-          eindopdracht voor school. Ik ben van plan om een soort twitter CRUD
-          applicatie te maken met een log in pagina. Tot nu toe ben ik bezig met
-          het maken van posts.
+          Dit is een crud applicatie geprogrammeerd in php. Ik ben momenteel nog
+          bezig met dit project. Het einddoel is een twitter geïnspireerde
+          applicatie.
         </p>
       </div>
     </div>
@@ -288,10 +285,22 @@
         </a>
       </div>
       <div>
+        <img class="contactImg" src="Images/linkedin.png" />
+        <br />
+        <a
+          href="https://www.linkedin.com/in/chloë-ongolesono-4278b832b/"
+          target="_blank"
+        >
+          <button class="regBtn" style="background-color: #42284f">
+            LinkedIn
+          </button>
+        </a>
+      </div>
+      <div>
         <img class="contactImg" src="Images/email.png" />
         <br />
         <a href="mailto:c.ongolesono@gmail.com" target="_blank">
-          <button id="cvBtn">Stuur een mail!</button>
+          <button class="cvBtn">Stuur een mail!</button>
         </a>
       </div>
       <div>
