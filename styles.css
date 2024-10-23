@@ -233,6 +233,7 @@ h2 {
   width: 30vw;
   padding: 10px 20px;
   margin: 20px auto;
+  box-shadow: 5px 5px 5px 5px #1b1b1b32;
 }
 
 .skillP {
