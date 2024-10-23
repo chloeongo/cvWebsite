@@ -2,6 +2,11 @@ body {
   margin: 0;
   background: linear-gradient(to top, #46284f, #362b54, #302749, #261f3a);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 #aboutme,
 #skills,
 #portfolio,
@@ -74,6 +79,14 @@ header > a:hover {
     margin-left: 25% !important;
   }
 
+  #picDeco {
+    left: 0;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    display: none;
+  }
+
   #softSkills,
   #hardSkills {
     width: 200px !important;
@@ -107,6 +120,15 @@ header > a:hover {
 /* about me styling */
 #aboutme {
   height: 100vh;
+  position: relative;
+}
+
+#picDeco {
+  position: absolute;
+  left: 70vw;
+  width: 150px;
+  height: auto;
+  z-index: -1;
 }
 
 #aboutmeP,
@@ -154,13 +176,15 @@ h2 {
 
 #profilePic {
   width: 300px;
-  height: 400px;
+  height: auto;
   float: right;
   margin-right: 10vw;
   margin-top: 18vh;
   margin-left: 3vw;
   border-radius: 25px;
   box-shadow: 5px 5px 7px #1b1b1b;
+  z-index: 1;
+  position: relative;
 }
 
 .cvBtn,
