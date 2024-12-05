@@ -48,7 +48,7 @@ header > a:hover {
   color: #e5c8f1;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 800px) {
   #name,
   #title,
   p {
@@ -89,6 +89,10 @@ header > a:hover {
     height: 0;
     z-index: -1;
     display: none;
+  }
+
+  #skillsBtn {
+    margin-left: 22vw !important;
   }
 
   #softSkills,
@@ -208,7 +212,8 @@ h2 {
 }
 
 #skillsBtn {
-  margin-left: 53vw;
+  margin-left: 52vw;
+  margin-right: 5px;
 }
 
 .cvBtn {
